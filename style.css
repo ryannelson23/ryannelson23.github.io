@@ -1,0 +1,64 @@
+* css-layout stylesheet *
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+body {
+
+	font: georgia, sans-serif\\;
+	font-family:'Indie Flower', cursive;
+  font-size: 14px
+  font-weight: 300;
+  color: (102,205,170)
+  background-image: url ('../img/bluebackground.jpg') repeat;
+  background-color: inherit;
+
+	}
+
+
+
+  }
+
+  #container {
+    margin: 4em auto;
+    width: 960px;
+    position: relative;
+  }
+
+  nav {
+    padding-bottom: 1em;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 1em;
+
+    font-weight: 800;
+    font-style: oblique;
+  }
+
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-grid;
+    margin-right: 1em;
+  }
+
+  section {
+    float: right;
+    width: 700px;
+  }
+
+  aside {
+    position: relative;
+    width: 220px;
+    right: 0;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #ccc;
+  }
+
+  footer {
+    color: #888;
+    border-top: 5px solid #ccc;
+    clear: both;
+  }
