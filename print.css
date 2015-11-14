@@ -4,12 +4,11 @@
 body {
 
 	font: georgia, sans-serif\\;
-	font-family:'Indie Flower', cursive;
+	font-family:'Indie Flower', serif;
   font-size: 170pt
   font-weight: 300;
   color: (102,205,170)
-  background-image: url ('../img/bluebackground.jpg') repeat;
-  background-color: inherit;
+  background-color: transparent;
 
 	}
 
@@ -18,15 +17,15 @@ body {
   }
 
   #container {
-    margin: 4em auto;
+    margin: 48pt auto;
     width: 960px;
     position: relative;
   }
 
   nav {
-    padding-bottom: 1em;
+    padding-bottom: 12in;
     border-bottom: 3px solid #ccc;
-    margin-bottom: 1em;
+    margin-bottom: 1pt;
 
     font-weight: 800;
     font-style: oblique;
@@ -40,7 +39,7 @@ body {
 
   nav ul li {
     display: inline-grid;
-    margin-right: 1em;
+    margin-right: 12in;
   }
 
   section {
@@ -52,8 +51,8 @@ body {
     position: relative;
     width: 220px;
     right: 0;
-    margin-left: 1em;
-    padding-left: 1em;
+    margin-left: 12in;
+    padding-left: 12in;
     border-left: 1px solid #ccc;
   }
 
@@ -76,8 +75,14 @@ body {
 	}
 	body {
 	    background-color: rgb(51, 255, 255);
-	    font-family: "Indie Flower",cursive;
+	    font-family: "Indie Flower",transparent;
 	    font-size: 16px;
 	    font-weight: 300;
 	    text-align: center;
 	}
+
+
+@page {
+	margin:4in;
+
+}
