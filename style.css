@@ -1,52 +1,72 @@
-* css-layout stylesheet *
-<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
-body {
+@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower:400,700);
 
-	font: georgia, sans-serif\\;
-	font-family:'Indie Flower', cursive;
-  font-size: 14px
-  font-weight: 300;
-  color: (102,205,170)
-  background-image: url ('../img/bluebackground.jpg') repeat;
-  background-color: inherit;
-
+	body {
+	    background-color: #33FFFF;
+	    font-family: 'Indie Flower',cursive;
+	    font-size: 16px;
+	    font-weight: 300;
+	    text-align: center;
 	}
 
 
-
-  }
-
   #container {
-    margin: 4em auto;
-    width: 960px;
-    position: relative;
-  }
+		background-color: rgba(255,255,255,0.5);
+		border: 2px solid lightblue;
 
-  nav {
-    padding-bottom: 1em;
-    border-bottom: 3px solid #ccc;
-    margin-bottom: 1em;
-
-    font-weight: 800;
-    font-style: oblique;
+		max-width: 940px;
+		height: auto;
+  	margin: 4em auto;
+  	padding-left: 2em;
+  	padding-right: 2em;
+  	text-align: left;
   }
+	h2 {
+		text-align: center;
+	}
 
-  nav ul {
-    display: inline-block;
-    list-style-type: none;
-    padding: 0;
-  }
+	#menu {
+		text-align: center;
+		font-family: 'Tangerine', cursive,sans-serif;
+		font-weight: 700;
+		font-size: 24px;
+	}
 
-  nav ul li {
-    display: inline-grid;
-    margin-right: 1em;
-  }
+	main{
+		max-width: 940px;
+		min-height: 700px;
+	}
+	li {
+	    display: inline;
+	}
 
-  section {
-    float: right;
-    width: 700px;
-  }
+	li a {
+	    padding: 14px 16px;
+	    text-decoration: none;
+			line-height: 200%;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+	    background-color: #229999;
+	}
+
+	#left{
+		font-family: 'Arial', cursive,sans-serif;
+
+		float:left;
+		max-width: 440px;
+	}
+
+	#right{
+		font-family: 'Arial', cursive,sans-serif;
+
+		float:right;
+		max-width: 440px;
+	}
+
+
 
   aside {
     position: relative;
@@ -63,7 +83,10 @@ body {
     clear: both;
   }
 
-
+	img{
+		outline-style: solid;
+		outline-width: thick;
+	}
 
 	.imgframe {
 	    background: #ffffff none repeat scroll 0 0;
@@ -73,11 +96,4 @@ body {
 	header {
 	    font-family: sans-serif;
 	    font-size: 10px;
-	}
-	body {
-	    background-color: rgb(51, 255, 255);
-	    font-family: "Indie Flower",cursive;
-	    font-size: 16px;
-	    font-weight: 300;
-	    text-align: center;
 	}
